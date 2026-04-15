@@ -1,0 +1,185 @@
+/*===============================
+        MENU/BANNER
+=================================*/
+body{
+    background-color:   rgb(225, 225, 225);
+    margin: 0;
+
+}
+main{
+    margin: 70px;
+}
+.imgbanner{
+    background-image: url(imagens/banner.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.carrinhoicon{
+    font-size: 30px;
+    text-decoration: none;
+}
+.carrinhoicon img{
+    width: 40px;
+    
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    height: 10px;
+    
+}
+nav a:not(.carrinhoicon):hover{
+    background-color: rgb(70, 4, 124);
+    color: white;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px    ;
+    align-items: center;
+}
+#textoinicio{
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: justify;
+}
+ul{
+    max-width: 800px;
+    margin: 10px auto;    
+    text-align: justify;
+}
+
+/*===============================
+        FORMULARIO
+=================================*/
+form{
+    background-color: rgb(255, 253, 255);
+}
+.campo{
+    width: 98%;
+    padding: 10px;
+}
+form div{
+    padding: 10px;
+
+}
+form p{
+    text-align: center;
+}
+
+
+/*===============================
+        PRODUTOS
+=================================*/
+.fundoprod{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px;
+    
+}
+
+.produto{
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+}
+.produto p,.produto h3{
+    text-align: center;
+    color: black;
+}
+.produto img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+button:hover{
+    color: rgb(48, 0, 57);
+    cursor: pointer;
+
+}
+button{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+}
+.quantidade{
+    border: 2px solid black;
+    display: inline-flex;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+.botao{
+    display: flex;
+}
+
+/*===============================
+        RODAPE
+=================================*/
+footer{
+    text-align: center;
+    background-color: rgb(96, 96, 96);
+}   
+footer ul{
+    display: flex;
+    list-style: none;
+
+}
+footer li{
+    padding: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+footer a:hover{
+    color: white;
+}
+footer p, h3{
+    color: white;
+}
+
+/*==========================================
+         CARRINHO
+============================================*/
+.fundocarrinho{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px;
+
+}
+.fundocarrinho p{
+    text-align: center;
+}
+
+.botaolado{
+ display: flex;
+}
+
+
+.prodinfo{
+    text-align: center;
+}
